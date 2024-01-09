@@ -15,7 +15,7 @@ namespace Unit_Tests.Tests {
                 //Act - execute the function
                 string result = worldsDumbest.ReturnsPokemonIfZero(num);
                 //Assert - whatever is returned, is it what you want?
-                if (result == "PICKACHU") {
+                if (result == "PICKACHU!") {
                     Console.WriteLine("Passed : WorldsDumbestFunction_ReturnsPikachuIfZero_ResturnsString");
                 } else {
                     Console.WriteLine("FAILED: WorldsDumbestFunction_ReturnsPikachuIfZero_ResturnsString");

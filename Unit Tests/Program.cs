@@ -1,2 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+using Unit_Tests.Tests;
+
+WorldsDumbestFunctionTests.WorldsDumbestFunction_ReturnsPikaChuIfZero_ReturnsString();

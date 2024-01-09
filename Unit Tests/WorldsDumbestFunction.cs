@@ -10,7 +10,7 @@ namespace Unit_Tests {
         public string ReturnsPokemonIfZero(int num) 
         {
             if(num == 0) {
-                return "PICKCHU!";
+                return "PICKACHU!";
             } else {
                 return "Squirtle";
             }
